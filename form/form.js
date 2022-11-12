@@ -6,6 +6,11 @@ if(hours >= 8 && hours <=17 ){
 
 }else     document.getElementById('but').style.display='none'
 
+if(hours >= 8 && hours <=17 ){
+  document.getElementById('phone').style.display='block'
+
+}else    document.getElementById('phone').style.display='none'
+
 
 
 const tel = document.getElementById('tel')
